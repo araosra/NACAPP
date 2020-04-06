@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ml"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mercadolivre" />
+
+    <ImageView
+        android:id="@+id/la"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lojasamericanas" />
+
+
+    <ImageView
+        android:id="@+id/eb"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_row="1"
+        android:layout_column="0"
+        app:srcCompat="@drawable/submarino" />
+
+    <ImageView
+        android:id="@+id/ns"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_row="1"
+        android:layout_column="1"
+        app:srcCompat="@drawable/buscape" />
+
+    <ImageView
+        android:id="@+id/wb"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_row="2"
+        android:layout_column="0"
+        app:srcCompat="@drawable/magalu" />
+
+
+    <ImageView
+        android:id="@+id/au"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_row="2"
+        android:layout_column="1"
+        app:srcCompat="@drawable/sobre" />
+
+    <Button
+        android:id="@+id/mlbutton"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="190dp"
+        android:backgroundTint="#F28B2B"
+        android:onClick="onMercadoLivre"
+        android:text="mercado livre" />
+
+    <Button
+        android:id="@+id/ebbutton"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="160dp"
+        android:backgroundTint="#F28B2B"
+        android:onClick="onSubmarino"
+        android:text="submarino" />
+
+    <Button
+        android:id="@+id/wmbutton"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#F28B2B"
+        android:onClick="onMagalu"
+        android:text="magalu" />
+
+    <Button
+        android:id="@+id/labutton"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="190dp"
+        android:backgroundTint="#F28B2B"
+        android:onClick="onLojasAmericanas"
+        android:text="lojas americanas" />
+
+    <Button
+        android:id="@+id/nsbutton"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="160dp"
+        android:backgroundTint="#F28B2B"
+        android:onClick="onBuscape"
+        android:text="buscapé" />
+
+    <Button
+        android:id="@+id/aubutton"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#F28B2B"
+        android:onClick="onSobre"
+        android:text="sobre" />
+
+</GridLayout>
